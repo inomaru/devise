@@ -20,6 +20,7 @@ module Devise
   autoload :TimeInflector,      'devise/time_inflector'
   autoload :TokenGenerator,     'devise/token_generator'
   autoload :SecretKeyFinder,    'devise/secret_key_finder'
+  autoload :JapanGreeting,      'devise/japan_greeting'
 
   module Controllers
     autoload :Helpers,        'devise/controllers/helpers'
